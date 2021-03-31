@@ -1,0 +1,42 @@
+.navbar{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(201, 238, 240);
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-item{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.home{
+    margin-right: auto;
+    margin-left: 5px;
+}
+form{
+    padding: 6px;
+    /* height: 24px; */
+    background-color: rgb(247, 247, 247);
+    border-style: none;
+    border-radius: 5px;
+}
+input{
+    /* height: 24px; */
+    width: 145px;
+    min-width: 100px;
+    padding-left: 3px;
+    background-color: rgb(247, 247, 247);
+    border-style: none;
+}
+input:focus{
+    outline: none;
+}
