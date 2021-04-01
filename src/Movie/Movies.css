@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    border-radius: 5px;
+    margin: 30px auto;
+    background-color: rgb(239, 253, 214);
+}
+.content{
+    padding: 20px;
+    text-align: justify;
+}
+.image{
+    margin:0;
+    padding: 0;
+    border-radius: 5px;
+}

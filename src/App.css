@@ -1,3 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgb(250, 244, 237);
+}
+.movie-container:nth-child(odd){
+  background-color: rgb(250, 244, 237);
 }
